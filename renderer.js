@@ -11,12 +11,12 @@ window.addEventListener('DOMContentLoaded', () => {
   const element = document.getElementById('user-agent');
   element.innerText = navigator.userAgent;
 
-  /*setTimeout(() => {
+  setTimeout(() => {
     navigator.serviceWorker.register('service-worker.js', {
       scope: './'
     });  
   }, 1000);
-  */
+  
 
   setTimeout(() => {
     criticalAssets.forEach(asset => {
